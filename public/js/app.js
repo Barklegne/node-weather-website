@@ -28,7 +28,6 @@ messageTwo.textContent = "";
 /* 
 TODO: Convert the fetch code block to its own callback function 
 TODO: So inside the event listener it can be called
-
 */
 weatherForm.addEventListener("submit", (e) => {
 	e.preventDefault();
