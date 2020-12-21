@@ -26,7 +26,7 @@ const forecast = (latitude, longitude, callback) => {
 
 				callback(
 					undefined,
-					`Max Temp is ${maxTemp}, ${daySummary}, its currently ${currentDegrees} degrees out.\n\nChance of rain ${chanceOfRain}%`
+					`Max Temp is ${maxTemp}, ${daySummary}, its currently ${currentDegrees} degrees out.\n\nChance of rain is ${chanceOfRain}%.`
 				);
 			}
 		}
